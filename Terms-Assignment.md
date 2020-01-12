@@ -52,7 +52,7 @@
 10. git log - To list the various versions of commits of the GIT respository.
 
 #### DataBase
-Database is a collection of data, which can be managed and manipulated easily. This are generally saved in the forms of tables.
+Database is a collection of data, which can be managed and manipulated easily. These are generally saved in the forms of tables.
 
 #### SQL Database
 SQL database can be called as Relational databases which means that is stores realtionship in form of tables. And "Structured Query Langauge" is used to peform operations on the SQL. IT is consistent, Available But not partition tolerant.
@@ -80,7 +80,7 @@ These are properties for a transactional type of database query.
 a). **A**tomicity - Either transaction should complete or not at all.
 b). **C**onsistency - Database should maintain consistency before and after transaction.
 c). **I**solation - All transactions should occur independently without any interference.
-d). **D**Duarability - Transaction should be complete even the system fails.
+d). **D**urability - Transaction should be complete even the system fails.
 
 #### Aggregations:-
 It is treating two different entities as a single entity. 
@@ -121,3 +121,140 @@ REST stands for **RE**presentational **S**tate **T**ransfer, so it provide the u
 These are the response code which are send as responses of a request. So there are various types of status code some of them are as given.
 ![HTTP response code](https://i1.wp.com/csharpcorner.mindcrackerinc.netdna-cdn.com/article/create-api-with-asp-net-core-day-three-working-with-http-status-codes-in-asp/Images/image002.jpg)
 
+#### HTML:-
+HTML stands for **Hy**per **T**ext **M**arkup **L**anguage which are designed for displaying in browser. Its parent is XML. It contains tags which are used to render different kinds of effects on multimedia page.
+
+#### Box Model:-
+It is a part of CSS. When a browser render any HTML element, each element is treated in rectangular box. The box model is structural property of the HTML element. The box model is made of margin, padding, border, and content properties.
+![Box model](https://www.topalovich.com/wp-content/uploads/2017/09/Box_Model.png)
+
+#### Margin:-
+Margin provide us control the space around the content, outside of defined border. Basically it pushes content outside the box.
+
+#### Padding:-
+Padding help us to control space around the content, inside of defined border. It pushes content inside the box.
+
+#### CSS Selectors:-
+These are the options for selecting and html element and applying CSS properties on this. It could be done by defining universal, ID, class or on tags by grouping.
+![CSS Selectors](https://studyopedia.com/wp-content/uploads/2017/07/CSS-Selectors.png)
+
+CSS Specificity:-
+There are certain rules for specifying the CSS properties to an HTML element. Each one of them have there own precendence order and points, so by it we can calculate their specificity of an element. They are Inline style, ID, classes and tags.
+![CSS Specificity](https://cdn.rawgit.com/MakeSchool-Tutorials/sa-2018-landing-page/master/P06-CSS-Inheritance-And-Specificity/assets/css_specificity_magnitudes.png)
+
+#### Flexbox:-
+It is a CSS property used to design layout for responsive sites. It works on container and its element principle. Generally flex works in 1 dimension. It contains various properties like flex-flow, flex-basis, etc.
+
+#### Grid:-
+It is also a CSS property used to design layout for responsive sites. It works on *grid*(rows and columns) principle. It works for 2 dimension. It contains properites like grid-gap, grid-template-areas etc.
+
+#### GIT:-
+GIT is a version control system. It was designed for managing and keeping track of the source code developed by programmers. It even tracks the changes occurs by others making it easy the code for coders to manage their code with others. 
+
+#### HTTP:-
+HTTP stands for **H**yper **T**ext **T**ransfer **P**rotocol which is used to browse across *World Wide Web*. It create the user request to server, and the server response accordingly.
+
+#### TCP:-
+TCP is **T**ransmission **C**ontrol **P**rotocol, which is used in www,ftp etc. It has more layers which make it slow but provie more secure and better network. 
+
+#### UDP:-
+UDP is **U**ser **D**atagram **P**rotocol, which is used for video streaming,DNS etc. It is fast because has less layer but data transimmision is unreliable. We use it generally when we don't data surely.
+
+#### Web server:-
+A web server is a server which stores HTML, CSS, multimedia content and scripts which render the data to user on request. It can be interacted with HTTP request.
+
+#### Static server:-
+It is a kind of server in which genrate files everytime it requested. Generally it easy, cheap, fast to create a static server.
+
+#### Application server:-
+Application server is server which is used to run web application or a desktop application. It may have business logics, databases and various components connected to it.
+
+#### DNS server:-
+DNS server stands for **D**omain **N**ame **S**ystem. It is a server which keep table for ip address and hostname. So when we request a ip address for a hostname, it first goes to DNS server to resolve the name thing.
+
+#### Database Server:-
+Database server is a server which keep data. It are generally not connected directly with internet. The request first goes to web server and then web server process the server request and then passes it to database server and it retieve the result and response it.
+
+#### Standalone Application:-
+It a kind of portable application, which can executed independently. They are not dependent on any other component.
+
+#### MVC:-
+The MVC stands for **M**odel **V**iew **C**ontroller. It is architectural that seperate these components from each other.
+a). Model - It includes the data and logic part.
+b). Controller - It works a controller between model and view which is triggered by users' action.
+c). View - Render the view to the user.
+![MVC](https://www.guru99.com/images/1/122118_0445_MVCTutorial1.png)
+
+#### Operating System:-
+The OS is interaction between user and hardware. It is build of various applications and filesystem. There are various types of architecture for OS.
+ex:- Windows, Ubuntu, MacOS etc.
+![OS](https://www.tutorialspoint.com/operating_system/images/conceptual_view.jpg)
+
+#### Kernel:-
+Kernel are the sub part of a OS which interacts and create a link betwwen hardware components in the system like CPU, RAM, hard drives, devices etc. with applications and softwares. 
+ex:- Monolithic kernel, Micro kernel etc. 
+
+#### Process:-
+A process is a program under execution. It may be further threads for execution. A process could be in ready, waiting, running, completed or terminated state. These process register themselves in call stack.
+
+#### Thread:-
+A thread is a sub process in sytem. A process could have multiple threads. The threads share their memory among another thread if they are executing for  same process. 
+
+#### SOLID:-
+The SOLID stands as:-
+**S** - Single responsibility principle
+**O** - Open/closed principle
+**L** - Liskov substitution principle
+**I** - Interface segregation principle
+**D** - Dependency inversion principle
+![SOLID principles](https://howtodoinjava.com/wp-content/uploads/solid_class_design_principles.png)
+
+#### Apache Web Server:-
+Apache is open source web server. Apache uses a process-driven approach and creates a new thread for each request.
+
+#### Nginx Web Server:-
+Nginx web server is mostly used for static files. It uses an event-driven architecture to handle multiple requests within one thread.
+
+#### Messaging Queue:-
+It is kind of storage for message when it doesn't reach its destination. It insert the message in a queue and provide asynchronous communication.
+
+#### Enterprise Message Bus:-
+
+
+#### RabbitMQ:-
+
+#### Kafka:-
+
+#### Zookeeper:-
+
+#### Service Oriented Architecture:-
+
+#### Microservices Architecture:-
+
+Redis? Why?
+Solr? Why?
+ElasticSearch? Why?
+Celery? Why?
+Node JS
+MongoDB? Why?
+Progressive Web Apps (PWA)
+Session Based Authentication
+Token Based Authentication
+Authorization
+Docker
+IaaS
+AWS
+PaaS
+Heroku
+Hoisting
+Pass by Reference/Pass By Value
+Closures
+Prototypal Inheritance
+Mutable Methods in JS
+Immutable Methods in JS
+React
+Why React?
+Redux
+Why Redux?
+State
+Props	
