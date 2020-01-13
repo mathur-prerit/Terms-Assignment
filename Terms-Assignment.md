@@ -109,9 +109,9 @@ These layers called as Open System Interconnection layers. There are 7 layers ea
 ![OSI model 7 layers](https://blogs.bmc.com/wp-content/uploads/2018/06/osi-model-7-layers-804x1024.png)
 
 ## Request Response Protocol:-
-It is a protocol generally used in *CLient Server Model* in which one on one request-response applies.
+It is a protocol generally used in *Client Server Model* in which one on one request-response applies.
 
-![Request Response Protocol](https://cdn.tutsplus.com/net/authors/jeremymcpeak/http1-request-response.png)
+![Request Response Protocol](https://i0.wp.com/blogs.innovationm.com/wp-content/uploads/2016/10/HTTP-Protocol.png?resize=624%2C248)
 
 ## Web API:-
 It is an Application Programing Interface which allows it user to interact with it, and use its functions and features. It is accessible from different kinds of devices
